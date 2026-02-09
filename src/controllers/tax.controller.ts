@@ -7,7 +7,7 @@ import mongoose from "mongoose";
 import { LedgerService } from "../services/ledger.service.js";
 import { TaxEngine } from "../services/tax.engine.js";
 import { AIService } from "../services/ai.service.js";
-import Transaction from "../models/transaction.model";
+import Transaction from "../models/transaction.model.js";
 import { saveAIResultToDB } from "../services/report.service.js";
 import { getPeriodRange } from "../utils/period";
 
