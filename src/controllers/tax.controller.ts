@@ -113,7 +113,7 @@ export const explainTax = async (req: Request, res: Response) => {
           type: tx.type,
           amount: tx.amount,
           description: tx.description,
-          date: tx.date.toISOString().split('T')[0],
+          date: tx.date ? tx.date.toISOString().split('T')[0] : "N/A",
           deductible: tx.deductible,
         })),
       };
