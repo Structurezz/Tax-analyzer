@@ -9,7 +9,7 @@ import { TaxEngine } from "../services/tax.engine.js";
 import { AIService } from "../services/ai.service.js";
 import Transaction from "../models/transaction.model.js";
 import { saveAIResultToDB } from "../services/report.service.js";
-import { getPeriodRange } from "../utils/period";
+import { getPeriodRange } from "../utils/period.js";
 
 const aiService = new AIService();
 
