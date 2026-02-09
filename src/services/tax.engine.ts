@@ -23,7 +23,7 @@ export class TaxEngine {
     return { levy };
   }
 
-
+  computeAllTaxes() {
     return {
       ...this.computeIncomeTax(),
       ...this.computeVAT(),
