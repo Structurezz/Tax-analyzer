@@ -1,0 +1,19 @@
+{
+  "userId": "695cca202c0bc0be99d52479",
+  "period": "2025-Q4",
+  "incomeTax": 73749544,
+  "vat": 18925564,
+  "developmentLevy": 2523409,
+  "otherTaxes": 0,
+  "legalTaxOptimisation": [
+    "Claim Capital Allowances: Deduct the cost of qualifying assets (e.g., machinery, vehicles, furniture) from your taxable profit over time, reducing your final income tax.",
+    "Maximise Allowable Expenses: Ensure all legitimate, wholly, exclusively, necessarily, and reasonably incurred business expenses are meticulously documented and claimed to reduce taxable profit.",
+    "Utilise Withholding Tax (WHT) Credits: Offset your final income tax liability with WHT that has been deducted at source from payments made to your company throughout the year.",
+    "Explore Investment Incentives: Investigate eligibility for tax holidays like the Pioneer Status Incentive (PSI) or other sector-specific allowances if your business operates in a qualifying industry."
+  ],
+  "complianceNotes": "VAT: File returns and remit payment monthly, by the 21st of the following month. CIT: File annual returns within 6 months of your financial year-end; provisional tax is due at the time of filing. Penalties and interest apply for late filings and payments. Record Keeping: You are legally required to maintain all business and accounting records for at least six years. Payment Difficulties: You can formally apply to the FIRS for a payment-in-instalments plan if you are unable to pay the full liability at once.",
+  "summary": "Your total estimated tax liability for the period is ₦95,198,517, comprising Company Income Tax, VAT, and Development Levy. If you face cash flow challenges, you may formally apply to the Federal Inland Revenue Service (FIRS) for an instalment payment plan, though approval is at their discretion.",
+  "_id": "695cf51db3d75e6a76071dc4",
+  "createdAt": "2026-01-06T11:42:21.369Z",
+  "__v": 0
+}

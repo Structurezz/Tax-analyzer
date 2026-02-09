@@ -1,0 +1,19 @@
+{
+  "userId": "695cca202c0bc0be99d52479",
+  "period": "2025",
+  "incomeTax": 274306375,
+  "vat": 70328908,
+  "developmentLevy": 9377188,
+  "otherTaxes": 0,
+  "legalTaxOptimisation": [
+    "Claim Capital Allowances: Deduct the cost of qualifying assets (e.g., machinery, vehicles, furniture) from your taxable profit over time, reducing your CIT liability.",
+    "Leverage Investment Incentives: Explore government incentives like Pioneer Status (tax holiday), Rural Investment Allowance, or tax credits for Research & Development to gain significant tax relief.",
+    "Maximise Allowable Expenses: Conduct a thorough review to ensure all legitimate business-related expenses, including donations to approved bodies and specific provisions, are fully claimed.",
+    "Utilise Loss Relief: Carry forward any business losses from previous years to offset against the current year's profit, thereby reducing your taxable income."
+  ],
+  "complianceNotes": "Key Deadlines: Company Income Tax (CIT) returns are due within 6 months of your financial year-end. VAT returns and payments are due monthly, by the 21st of the following month. All business and tax records must be kept for a minimum of 6 years.",
+  "summary": "Based on the provided figures, your total estimated tax liability for the year is ₦354,012,471. This comprises Company Income Tax (CIT), Value Added Tax (VAT), and the Development Levy. We recommend implementing optimisation strategies to legally reduce this burden in future periods.",
+  "_id": "695ce2275edad90a02f5e599",
+  "createdAt": "2026-01-06T10:21:27.045Z",
+  "__v": 0
+}

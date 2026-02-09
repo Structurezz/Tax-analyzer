@@ -1,0 +1,19 @@
+{
+  "userId": "695cca202c0bc0be99d52479",
+  "period": "2024",
+  "incomeTax": 272665888,
+  "vat": 70267044,
+  "developmentLevy": 9368939,
+  "otherTaxes": 0,
+  "legalTaxOptimisation": [
+    "Maximize WENR deductions on all qualifying business expenses (salaries, rent, marketing, utilities).",
+    "Claim full capital allowances (initial + annual) on assets like vehicles, machinery, and equipment.",
+    "Carry forward any tax losses indefinitely to offset future profits.",
+    "Apply for Pioneer Status or industry incentives if in manufacturing, agriculture, or tech."
+  ],
+  "complianceNotes": "File CIT return within 6 months of year-end. Submit VAT monthly by 21st. Keep records for 6 years.",
+  "summary": "Your business generated revenue of ₦936,893,914 with deductible expenses of ₦28,007,622, resulting in a taxable profit of ₦908,886,292. Total estimated tax liability is ₦352,301,870.",
+  "_id": "695d224ce61e7ef296e59c4c",
+  "createdAt": "2026-01-06T14:55:08.815Z",
+  "__v": 0
+}

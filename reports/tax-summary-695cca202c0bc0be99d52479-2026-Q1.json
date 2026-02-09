@@ -1,0 +1,19 @@
+{
+  "userId": "695cca202c0bc0be99d52479",
+  "period": "2026-Q1",
+  "incomeTax": 65364652,
+  "vat": 16720183,
+  "developmentLevy": 2229358,
+  "otherTaxes": 0,
+  "legalTaxOptimisation": [
+    "Claim Capital Allowances: Deduct the cost of qualifying assets (e.g., machinery, vehicles, furniture) from your taxable profit over time, which directly reduces your Company Income Tax liability.",
+    "Maximise Allowable Expenses: Ensure all legitimate business-related expenses are meticulously documented and claimed. This includes costs like staff training, research & development, and specific provisions for bad debts.",
+    "Utilise Investment Incentives: If your business is in a qualifying sector (e.g., manufacturing, agriculture, solid minerals), you may be eligible for incentives like Pioneer Status (tax holiday) or Rural Investment Allowance.",
+    "Optimise Withholding Tax (WHT) Credits: Ensure all WHT deducted at source by your clients is properly documented and utilised as a credit to offset your final income tax liability. This is an advance tax payment."
+  ],
+  "complianceNotes": "VAT returns and payments are due by the 21st of the month following the transaction. Company Income Tax returns must be filed within 6 months of your financial year-end. Maintain all financial records, including invoices and receipts, for a minimum of six years as required by FIRS.",
+  "summary": "Based on the provided data, your total estimated tax liability for this period is ₦84,314,193. This comprises Company Income Tax (CIT), Value Added Tax (VAT), and a Development Levy. The following strategies can help legally optimise this position for future periods.",
+  "_id": "695cea1aaf3465eacf6e2a56",
+  "createdAt": "2026-01-06T10:55:22.213Z",
+  "__v": 0
+}
