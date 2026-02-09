@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { explainTax } from "../controllers/tax.controller";
+import { explainTax } from "../controllers/tax.controller.js";
 
 const router = Router();
 router.post("/explain", explainTax); 
