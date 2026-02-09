@@ -1,10 +1,10 @@
 import fs from "fs";
 import path from "path";
 import { Request, Response } from "express";
-import { AIService } from "../services/ai.service";
-import { LedgerService } from "../services/ledger.service";
-import { TaxEngine } from "../services/tax.engine";
-import { saveAIResultToDB } from "../services/report.service";
+import { AIService } from "../services/ai.service.js";
+import { LedgerService } from "../services/ledger.service.js";
+import { TaxEngine } from "../services/tax.engine.js";
+import { saveAIResultToDB } from "../services/report.service.js";
 
 const ledgerService = new LedgerService();
 const taxEngine = new TaxEngine(ledgerService);

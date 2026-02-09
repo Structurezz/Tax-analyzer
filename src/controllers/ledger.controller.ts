@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { LedgerService } from "../services/ledger.service";
+import { LedgerService } from "../services/ledger.service.js";
 
 const ledgerService = new LedgerService();
 
