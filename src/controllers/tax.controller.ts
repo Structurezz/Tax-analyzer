@@ -68,15 +68,16 @@ export const explainTax = async (req: Request, res: Response) => {
       ledgerService.addTransaction({
         id: tx._id.toString(),
         type: tx.type,
-        amount:
-          tx.amount instanceof mongoose.Types.Decimal128
-            ? parseFloat(tx.amount.toString())
-            : Number(tx.amount),
+        amount: (tx.amount as any) instanceof mongoose.Types.Decimal128
+        ? parseFloat(tx.amount.toString())
+        : Number(tx.amount),
+      
         description: tx.description ?? "",
         date: tx.date ? new Date(tx.date) : new Date(),
         deductible: tx.deductible ?? false,
       });
     });
+    
 
     // === FINAL LEDGER STATE DEBUG ===
     console.log("\n=== FINAL LEDGER STATE ===");
