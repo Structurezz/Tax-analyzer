@@ -1,5 +1,5 @@
-import { TaxSummary } from "../models/taxSummary.model";
-import { generateTaxPDF } from "../utils/pdf.util";
+import { TaxSummary } from "../models/taxSummary.model.js";
+import { generateTaxPDF } from "../utils/pdf.util.js";
 import { ENV } from "../config/env.js";
 
 export const saveAIResultToDB = async (userId: string, period: string, aiResult: any) => {
