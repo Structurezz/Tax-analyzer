@@ -1,10 +1,12 @@
 import express from "express";
 import bodyParser from "body-parser";
-import ledgerRoutes from "./routes/ledger.routes";
-import taxRoutes from "./routes/tax.routes";
 
-import { ENV } from "./config/env";  
-import { connectDB } from "./config/db.config";
+// ⚠️ Add .js extension for Node ESM runtime
+import ledgerRoutes from "./routes/ledger.routes.js";
+import taxRoutes from "./routes/tax.routes.js";
+
+import { ENV } from "./config/env.js";  
+import { connectDB } from "./config/db.config.js";
 
 connectDB();
 
@@ -13,7 +15,6 @@ app.use(bodyParser.json());
 
 app.use("/api/ledger", ledgerRoutes);
 app.use("/api/tax", taxRoutes);
-
 
 app.get("/", (req, res) => res.send("Smart Tax Engine API running"));
 
