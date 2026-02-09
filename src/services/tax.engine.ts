@@ -1,5 +1,5 @@
 // src/services/tax.engine.ts
-import { LedgerService } from "./ledger.service";
+import { LedgerService } from "./ledger.service.js";
 
 export class TaxEngine {
   constructor(private ledgerService: LedgerService) {}

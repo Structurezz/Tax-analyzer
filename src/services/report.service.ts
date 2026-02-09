@@ -1,6 +1,6 @@
 import { TaxSummary } from "../models/taxSummary.model";
 import { generateTaxPDF } from "../utils/pdf.util";
-import { ENV } from "../config/env";
+import { ENV } from "../config/env.js";
 
 export const saveAIResultToDB = async (userId: string, period: string, aiResult: any) => {
   try {

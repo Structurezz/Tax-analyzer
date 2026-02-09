@@ -1,7 +1,7 @@
 // src/services/ai.service.ts
 import dotenv from "dotenv";
 import { GoogleGenerativeAI } from "@google/generative-ai";
-import { ENV } from "../config/env";
+import { ENV } from "../config/env.js";
 
 dotenv.config();
 
