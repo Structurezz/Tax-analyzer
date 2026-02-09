@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import { ENV } from "./env"; // Use centralized env variables
+import { ENV } from "./env.js"; // Use centralized env variables
 
 const mongoUrl = ENV.MONGODB_URI || "";
 
